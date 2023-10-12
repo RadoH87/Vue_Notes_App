@@ -1,5 +1,69 @@
 @import './base.css';
 
+
 body {
-    background-color: #6597f0;
+    overflow: hidden;
+    background: var(--background-gradient);
 }
+
+
+:root {
+    --background-gradient: linear-gradient(to bottom, #000000, #37474F, #263238, #000000);
+    --background-overlay: rgba(0, 0, 0, 0.77);
+    --background-modal: rgba(38, 50, 56, 0.7);
+    --background-textarea: rgba(84, 110, 122, 0.7);
+    --background-button: #FFAB40;
+    --background-button-hover: #FFD600;
+    --background-close-button: #FF5722;
+    --background-close-button-hover: #FF7F42;
+    --text-color: #FFFFFF;
+    --errorText-color: #DC2626;
+
+    --transition-duration: 0.3s;
+    --transition-transform: 0.2s;
+    --transition-box-shadow: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
