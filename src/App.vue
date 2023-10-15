@@ -58,12 +58,13 @@ const addNote = () => {
 
 main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  overflow-y: scroll;
 }
 
 .container {
   max-width: 1000px;
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -77,6 +78,7 @@ h1 {
   font-weight: bold;
   margin-bottom: 75px;
   font-size: 75px;
+  color: var(--text-color);
 }
 
 header button {
@@ -106,7 +108,16 @@ header button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 20px 20px 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.main-text {
+  line-height: 1.25;
+  font-size: 17px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: normal;
 }
 
 .date {
